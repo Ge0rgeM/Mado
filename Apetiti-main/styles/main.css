@@ -1,0 +1,207 @@
+:root{
+    --white: #fff;
+    --gray: #333;
+    --green: #124e06;
+}
+
+
+body  {
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+html *{
+    /* border: red 1px dotted; */
+}
+ .temp{
+    width: 100%;
+    height: 1000px;
+    background-color: transparent;
+ }
+.bodyWrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../pics/BackgroundPic.jpg);
+    position: fixed;
+}
+.bodyWrapperShade{
+    background-color: rgba(0, 0, 0, 0.79);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+}
+/* #temp{
+    width: 200px;
+    height: 800px;
+    background-color: red;
+} */
+header {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    border-radius: 20px;
+    width: 90%;
+    background-color: var(--gray);
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.79) 0px 1px 10px;
+    z-index: 10000;
+}
+.headerWrapper{
+    margin: auto;
+    border-radius: 20px;
+    width: 90%;
+    height: 60px;
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .headerWrapper nav {
+    display: flex;
+    width: 65%;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+    gap: 7%;
+}
+header .headerWrapper nav a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: border-bottom-color 0.5s;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--gray);
+}
+header .headerWrapper nav a:hover{
+    border-bottom-color: var(--green);
+    
+}
+header .headerWrapper nav a, .language-switch a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo img{
+    height: 50px;
+}
+
+.language-switch {
+    margin-right: 10px;
+}
+
+.greeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+.greeting-title{
+    margin-bottom: 20PX;
+    font-size: 2em;
+    color: var(--white);
+}
+
+.greeting-text{
+    margin: 40px;
+    font-size: 1em;
+    color: var(--white);
+    text-align: center;
+}  
+
+.contuct-us{
+    background-color: var(--gray);
+    border-radius: 7px;
+    margin: 80px;
+}
+.contuct-us a{
+    font-size: 0.8em;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white);
+}
+.contuct-us a div{
+    padding: 15px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.contuct-us a div:hover{
+    color: var(--gray);
+    background-color: var(--white);
+    border-radius: 7px;
+}
+
+.carousel {
+    /* text-align: center; */
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slide {
+    height: 20vw;
+    
+    background-image: url(../pics/BackgroundPic-600x600.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image within the div */
+    
+    flex: 0 0 calc(100% / 3 - 30px);
+    margin: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #124e06 5px solid;
+    transition: transform .5s ease-in-out;
+    /* transform: translateX(-331px); */
+    /* width: 26.6px !important; */
+}
+.slideContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+#leftArrow, #rightArrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 8%;
+    height: 100%;
+}
+#leftArrow svg path, #rightArrow svg path{
+    stroke: var(--white);
+    cursor: pointer;
+}
+#leftArrow svg{
+    transform:rotate(90deg);
+}
+#rightArrow svg{
+    transform:rotate(-90deg);
+}
+/* .carousel button {
+    position: absolute;
+    top:750px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+} */
+
+.carousel p{
+    color: var(--white);
+}
