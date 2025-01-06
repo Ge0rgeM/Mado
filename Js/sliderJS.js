@@ -12,32 +12,32 @@ class Slide {
 let allImages = [
     {
         id: 1,
-        imgUrl: '../pics/BackgroundPic-600x600.jpg',
+        imgUrl: './pics/BackgroundPic-600x600.jpg',
         description: 'This is a description'
     },
     {
         id: 2,
-        imgUrl: '../pics/fursheti.png',
+        imgUrl: './pics/fursheti.png',
         description: 'This is a description'
     },
     {
         id: 3,
-        imgUrl: '../pics/kafe1.png',
+        imgUrl: './pics/kafe1.png',
         description: 'This is a description'
     },
     {
         id: 4,
-        imgUrl: '../pics/lanchi.png',
+        imgUrl: './pics/lanchi.png',
         description: 'This is a description'
     },
     {
         id: 3,
-        imgUrl: '../pics/kafe1.png',
+        imgUrl: './pics/kafe1.png',
         description: 'This is a description'
     },
     {
         id: 4,
-        imgUrl: '../pics/lanchi.png',
+        imgUrl: './pics/lanchi.png',
         description: 'This is a description'
     },
 ]
