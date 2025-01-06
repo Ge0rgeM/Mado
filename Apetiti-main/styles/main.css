@@ -150,7 +150,7 @@ header .headerWrapper nav a, .language-switch a{
 .slide {
     height: 20vw;
     
-    background-image: url(../pics/BackgroundPic-600x600.jpg);
+    /* background-image: url(../pics/BackgroundPic-600x600.jpg); */
     background-size:cover;
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center; /* Center the image within the div */
