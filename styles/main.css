@@ -156,7 +156,7 @@ header .headerWrapper nav a, .language-switch a{
     justify-content: center;
     align-items: center;
     border: #333 5px solid;
-    transition: transform .5s ease-in-out;
+    transition: transform 1s ease-in-out;
     /* transform: translateX(-331px); */
     /* width: 26.6px !important; */
 }
