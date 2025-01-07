@@ -8,8 +8,7 @@ class Slide {
         return `<div class="slide" style="background-image: url(${this.imgUrl});"></div>`
     }
 }
-// madooo
-// madoooooo
+
 let allImages = [
     {
         id: 1,
@@ -104,7 +103,7 @@ function autoSlide() {
         for (let slide of slides) {
             slide.style.transform = `translateX(${-1 * ((sliderWidth + ExtraMargins) * IND)}px)`;
         }
-    }, 2000); // Change slide every 2 seconds
+    }, 5000); // Change slide every 5 seconds
 }
 
 autoSlide();

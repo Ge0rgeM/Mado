@@ -160,7 +160,7 @@ header .headerWrapper nav a, .language-switch a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #124e06 5px solid;
+    border: #333 5px solid;
     transition: transform .5s ease-in-out;
     /* transform: translateX(-331px); */
     /* width: 26.6px !important; */
@@ -205,3 +205,45 @@ header .headerWrapper nav a, .language-switch a{
 .carousel p{
     color: var(--white);
 }
+footer{
+    height:50vh;
+    border-radius: 20px;
+    width: 90%;
+    background-color: var(--gray);
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.79) 0px 1px 10px;
+    margin: auto;
+}
+
+.footerWrapper{
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 20px;
+    width: 90%;
+    height: 60px;
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerText{
+    padding-top: 20px;
+}
+.footerSocial{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.footerContacts{
+    display: flex;
+    justify-content:space-evenly;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.footerContacts p{
+    font-size: 0.8em;
+}
+
