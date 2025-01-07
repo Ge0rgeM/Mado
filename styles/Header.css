@@ -1,5 +1,5 @@
-@import url(./Root.css);
-header {
+/* @import url(./Root.css);
+ header {
     position: fixed;
     top: 50px;
     left: 50%;
@@ -47,6 +47,103 @@ header .headerWrapper nav a, .language-switch a{
     color: #fff;
     text-decoration: none;
 }
+.logo img{
+    height: 50px;
+}
+.language-switch {
+    display: flex;
+    margin-right: 10px;
+}
+.language-switch div{
+    margin-right: 15px;
+    cursor: pointer;
+} */
+
+@import url(./Root.css);
+header {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    border-radius: 20px;
+    width: 90%;
+    background-color: var(--gray);
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.79) 0px 1px 10px;
+    z-index: 10000;
+}
+.headerWrapper {
+    margin: auto;
+    border-radius: 20px;
+    width: 90%;
+    height: 60px;
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .headerWrapper nav {
+    display: flex;
+    width: 65%;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+    gap: 7%;
+}
+header .headerWrapper nav .navLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    transition: border-bottom-color 0.3s;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--gray);
+}
+header .headerWrapper nav .navLink:hover{
+    border-bottom-color: var(--green);
+    
+}
+
+header .headerWrapper nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+header .headerWrapper nav ul li {
+    position: relative;
+}
+
+.dropDownMenu {
+    position: relative;
+}
+
+.dropDownContent {
+    display: none;
+    position: absolute;
+    background-color: var(--gray);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.dropDownContent a {
+    color:  var(--white);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropDownMenu:hover .dropDownContent {
+    display: block;
+}
+
 .logo img{
     height: 50px;
 }
