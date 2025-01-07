@@ -11,8 +11,9 @@ body  {
     display: flex;
     justify-content: center;
 }
-/* html *{
+html * {
     /* border: red 1px dotted; */
+}
  .temp{
     width: 100%;
     height: 1000px;
@@ -31,11 +32,6 @@ body  {
     position: fixed;
     overflow-y: scroll;
 }
-/* #temp{
-    width: 200px;
-    height: 800px;
-    background-color: red;
-} */
 header {
     position: fixed;
     top: 50px;
@@ -190,59 +186,74 @@ header .headerWrapper nav a, .language-switch a{
 #rightArrow svg{
     transform:rotate(-90deg);
 }
-/* .carousel button {
-    position: absolute;
-    top:750px;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-} */
-
 .carousel p{
     color: var(--white);
 }
+
 footer{
-    height:50vh;
     border-radius: 20px;
     width: 90%;
+    height: fit-content;
     background-color: var(--gray);
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.79) 0px 1px 10px;
     margin: auto;
 }
-
 .footerWrapper{
     padding-top: 10px;
     margin: auto;
     border-radius: 20px;
-    width: 90%;
-    height: 60px;
-    background-color: var(--gray);
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+.footerLogo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.footerLogo img{
+    width: 15%;
+}
 .footerText{
-    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 15px;
 }
 .footerSocial{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
+    padding-bottom: 15px;
+}
+.footerSocial > *{
+    margin: 0 10px 0 10px;
 }
 .footerContacts{
+    width: 100%;
     display: flex;
-    justify-content:space-evenly;
-    width: 90%;
-    margin: auto;
-    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.footerContacts > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContacts div:nth-child(1), .footerContacts div:nth-child(3){
+    width: 40%;
+}
+.footerContacts div:nth-child(2){
+    width: 20%;
 }
 
 .footerContacts p{
     font-size: 0.8em;
 }
-
