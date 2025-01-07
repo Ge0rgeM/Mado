@@ -1,0 +1,67 @@
+footer{
+    border-radius: 20px;
+    width: 90%;
+    height: fit-content;
+    background-color: var(--grayTransparency);
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.79) 0px 1px 10px;
+    margin: auto;
+}
+.footerWrapper{
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerLogo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.footerLogo img{
+    width: 15%;
+}
+.footerText{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.footerSocial{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.footerSocial > *{
+    margin: 0 10px 0 10px;
+}
+.footerContacts{
+    width: 100%;
+    display: flex;
+    padding-bottom: 15px;
+}
+.footerContacts > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContacts div:nth-child(1), .footerContacts div:nth-child(3){
+    width: 40%;
+}
+.footerContacts div:nth-child(2){
+    width: 20%;
+}
+
+.footerContacts p{
+    font-size: 0.8em;
+}

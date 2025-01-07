@@ -1,0 +1,63 @@
+.carousel {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.slide {
+    height: 20vw;
+    background-size:cover;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image within the div */  
+    flex: 0 0 calc(100% / 3 - 30px);
+    margin: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #333 5px solid;
+    transition: transform 1s ease-in-out;
+}
+.slideContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+#leftArrow, #rightArrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 8%;
+    height: 100%;
+}
+#leftArrow svg path, #rightArrow svg path{
+    stroke: var(--white);
+    stroke-width: 7;
+    cursor: pointer;
+}
+#leftArrow svg path:hover, #rightArrow svg path:hover{
+    stroke: var(--whiteTransparency)
+}
+#leftArrow svg{
+    transform:rotate(90deg);
+}
+#rightArrow svg{
+    transform:rotate(-90deg);
+}
+.carousel p{
+    color: var(--white);
+}
+.slideDescription{
+    background-color: var(--grayTransparency);
+    color: var(--white);
+    height: 30%;
+    width: 100%;
+    align-self: self-end;
+}
+.slideDescription p{
+    margin: 10px;
+}

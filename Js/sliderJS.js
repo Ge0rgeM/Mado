@@ -5,7 +5,9 @@ class Slide {
         this.description = description;
     }
     createSlideElement() {
-        return `<div class="slide" style="background-image: url(${this.imgUrl});"></div>`
+        return `<div class="slide" style="background-image: url(${this.imgUrl});">
+                    <div class="slideDescription"><p>${this.description}</p></div>
+                </div>`
     }
 }
 // madooo
@@ -14,32 +16,32 @@ let allImages = [
     {
         id: 1,
         imgUrl: './pics/BackgroundPic-600x600.jpg',
-        description: 'This is a description'
+        description: 'This is a description,This is a description,This is a description,This is a description'
     },
     {
         id: 2,
         imgUrl: './pics/fursheti.png',
-        description: 'This is a description'
+        description: 'This is a description,This is a description,This is a description,This is a description'
     },
     {
         id: 3,
         imgUrl: './pics/kafe1.png',
-        description: 'This is a description'
+        description: 'This is a description,This is a description,This is a description,This is a description'
     },
     {
         id: 4,
         imgUrl: './pics/lanchi.png',
-        description: 'This is a description'
+        description: 'This is a description,This is a description,This is a description,This is a description'
     },
     {
         id: 3,
         imgUrl: './pics/kafe1.png',
-        description: 'This is a description'
+        description: 'This is a description,This is a description,This is a description,This is a description'
     },
     {
         id: 4,
         imgUrl: './pics/lanchi.png',
-        description: 'This is a description'
+        description: 'This is a description,This is a description,This is a description,This is a description'
     },
 ]
 
