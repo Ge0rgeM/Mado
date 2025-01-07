@@ -10,6 +10,7 @@ class Slide {
 }
 // madooo
 // madoooooo
+// George
 let allImages = [
     {
         id: 1,
