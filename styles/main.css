@@ -1,11 +1,4 @@
-:root{
-    --white: rgb(255, 255, 255);
-    --whiteTransparency: rgba(255, 255, 255, 0.85);
-    --gray: rgb(51, 51, 51);
-    --grayTransparency: rgba(51, 51, 51, 0.7);
-    --green: #124e06;
-    --fonts: "Open Sans";
-}
+@import url(./Root.css);
 body  {
     margin: 0; 
     padding: 0;
@@ -16,9 +9,9 @@ body  {
 html{
     scroll-behavior: smooth;
 }
-html * {
-    /* border: red 1px dotted; */
-}
+/* html * {
+    border: red 1px dotted;
+} */
  .temp{
     width: 100%;
     height: 200px;

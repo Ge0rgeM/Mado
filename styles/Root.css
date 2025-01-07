@@ -1,0 +1,8 @@
+:root{
+    --white: rgb(255, 255, 255);
+    --whiteTransparency: rgba(255, 255, 255, 0.85);
+    --gray: rgb(51, 51, 51);
+    --grayTransparency: rgba(51, 51, 51, 0.7);
+    --green: #124e06;
+    --fonts: "Open Sans";
+}
