@@ -11,9 +11,8 @@ body  {
     display: flex;
     justify-content: center;
 }
-html *{
+/* html *{
     /* border: red 1px dotted; */
-}
  .temp{
     width: 100%;
     height: 1000px;
