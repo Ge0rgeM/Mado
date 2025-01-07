@@ -8,7 +8,8 @@ class Slide {
         return `<div class="slide" style="background-image: url(${this.imgUrl});"></div>`
     }
 }
-
+// madooo
+// madoooooo
 let allImages = [
     {
         id: 1,
