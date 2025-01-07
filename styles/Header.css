@@ -50,7 +50,11 @@ header .headerWrapper nav a, .language-switch a{
 .logo img{
     height: 50px;
 }
-
 .language-switch {
+    display: flex;
     margin-right: 10px;
+}
+.language-switch div{
+    margin-right: 15px;
+    cursor: pointer;
 }
