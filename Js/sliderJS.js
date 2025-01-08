@@ -100,11 +100,18 @@ function autoSlide() {
                 RightMoving = true;
             }
         }
-
+        if(IND < 0){
+            IND = 1;
+            RightMoving = true;
+        }
+        if (IND > nOfSlides) {
+            IND = nOfSlides - 1;
+            RightMoving = false;
+        }
         for (let slide of slides) {
             slide.style.transform = `translateX(${-1 * ((sliderWidth + ExtraMargins) * IND)}px)`;
         }
-    }, 4000); // Change slide every 5 seconds
+    }, 2000); // Change slide every 5 seconds
 }
 
 autoSlide();
