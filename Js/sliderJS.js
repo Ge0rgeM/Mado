@@ -6,42 +6,40 @@ class Slide {
     }
     createSlideElement() {
         return `<div class="slide" style="background-image: url(${this.imgUrl});">
-                    <div class="slideDescription"><p>${this.description}</p></div>
+                    <div data-translate = "descriptionId${this.id}" class="slideDescription"><p>${this.description}</p></div>
                 </div>`
     }
 }
-// madooo
-// madoooooo
 let allImages = [
     {
         id: 1,
         imgUrl: './pics/BackgroundPic-600x600.jpg',
-        description: 'This is a description,This is a description,This is a description,This is a description'
+        description: 'ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა.'
     },
     {
         id: 2,
         imgUrl: './pics/fursheti.png',
-        description: 'This is a description,This is a description,This is a description,This is a description'
+        description: 'ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა.'
     },
     {
         id: 3,
         imgUrl: './pics/kafe1.png',
-        description: 'This is a description,This is a description,This is a description,This is a description'
+        description: 'ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა.'
     },
     {
         id: 4,
         imgUrl: './pics/lanchi.png',
-        description: 'This is a description,This is a description,This is a description,This is a description'
+        description: 'ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა.'
     },
     {
-        id: 3,
+        id: 5,
         imgUrl: './pics/kafe1.png',
-        description: 'This is a description,This is a description,This is a description,This is a description'
+        description: 'ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა.'
     },
     {
-        id: 4,
+        id: 6,
         imgUrl: './pics/lanchi.png',
-        description: 'This is a description,This is a description,This is a description,This is a description'
+        description: 'ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა,ეს არის აღწერა.'
     },
 ]
 

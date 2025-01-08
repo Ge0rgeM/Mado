@@ -24,34 +24,34 @@
                         </a>
                     </div>
                     <nav>
-                        <ul>
-                            <li><a href="#" class="navLink">მთავარი</a></li>
-                            <li><a href="#" class="navLink">ჩვენს შესახებ</a></li>
-                            <li class="dropDownMenu">
-                                <a href="#" class="navLink">სერვისები</a>
+                        <ul class="navLinks">
+                            <li class="navLink"><a data-translate="main" href="#">მთავარი</a></li>
+                            <li class="navLink"><a data-translate="aboutUs" href="#">ჩვენს შესახებ</a></li>
+                            <li class="navLink dropDown">
+                                <a data-translate="services" href="#">სერვისები</a>
                                 <ul class="dropDownContent">
-                                    <li><a href="#" class="dropDownLink">ფურშეტი</a></li>
-                                    <li><a href="#" class="dropDownLink">კომპანიის კვება</a></li>
-                                    <li><a href="#" class="dropDownLink">საკურიერო მომსახურება</a></li>
+                                    <li class="dropDownLink"><a data-translate="buffet" href="#" >ფურშეტი</a></li>
+                                    <li class="dropDownLink"><a data-translate="corporateBuffet" href="#" >კომპანიის კვება</a></li>
+                                    <li class="dropDownLink"><a data-translate="delivery" href="#" >საკურიერო მომსახურება</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" class="navLink">კაფე</a></li>
-                            <li><a href="#" class="navLink">კონტაქტი</a></li>
+                            <li class="navLink"><a data-translate="cafe" href="#">კაფე</a></li>
+                            <li class="navLink"><a data-translate="contact" href="#">კონტაქტი</a></li>
                         </ul>
                     </nav>
                     <div class="language-switch">
-                        <div id="ge" onclick="EnglishToGeorgian()">GE</div>
-                        <div id="en" onclick="GeorgianToEnglish()">EN</div>
+                        <div id="ge">GE</div>
+                        <div id="en">EN</div>
                     </div>
                 </div>
             </header>
         
             <div class="greeting">
                 <div class="greeting-title">
-                    <p>შენი სახლური გემო</p>
+                    <p data-translate="greetingTitle">შენი სახლური გემო</p>
                 </div>
                 <div class="greeting-text">
-                    <p>ქართველი ხალხი განსაკუთრებული სიამაყით აღიარებს თავის კულინარიულ მემკვიდრეობას, და ქართული რესტორნები სწორედ ამის საუკეთესო მაგალითია. საქართველოში რესტორნები განსხვავებული სტილისა და თემატიკისაა, დაწყებული ტრადიციული სამზარეულოს სუფთებით დამთავრებული თანამედროვე გასტრონომიული ადგილებით, რომლებიც მსოფლიო ტენდენციებს ეხმიანება.
+                    <p data-translate = "greetingText">ქართველი ხალხი განსაკუთრებული სიამაყით აღიარებს თავის კულინარიულ მემკვიდრეობას, და ქართული რესტორნები სწორედ ამის საუკეთესო მაგალითია. საქართველოში რესტორნები განსხვავებული სტილისა და თემატიკისაა, დაწყებული ტრადიციული სამზარეულოს სუფთებით დამთავრებული თანამედროვე გასტრონომიული ადგილებით, რომლებიც მსოფლიო ტენდენციებს ეხმიანება.
                         თბილისში, როგორც ქვეყნის კულინარიულ ცენტრში, მრავლად შეხვდებით რესტორნებს, რომლებიც სტუმრებს სთავაზობენ სხვადასხვა რეგიონის კერძებს. მაგალითად, სვანური კუბდარი, იმერული ხაჭაპური ან კახური შაშხი ხშირად არის მენიუს ცენტრში. ისტორიული უბნების რესტორნებში თქვენ შეგიძლიათ ისიამოვნოთ უძველესი რეცეპტებით მომზადებული კერძებით, რომლებიც უნიკალური არომატით გამოირჩევიან.
                         ბათუმში, შავი ზღვის სანაპიროზე, რესტორნები ხშირად აქცენტს აკეთებენ ზღვის პროდუქტებზე, ადგილობრივი თევზითა და ზღვის დელიკატესებით. რეგიონული სამზარეულო გამორჩეულია თავისი მრავალფეროვნებით, და ეს გამოიხატება ადგილობრივ რესტორნების სუფრებზე.
                         ქართული ღვინის ბარები და რესტორნები ასევე მნიშვნელოვანი ნაწილია ქართული კულტურის პოპულარიზაციის პროცესში. აქ შეგიძლიათ გასინჯოთ მრავალფეროვანი ღვინოები, რომლებიც რქაწითელისა და საფერავის ვაზისგან მზადდება.
@@ -59,7 +59,7 @@
                 </div>
                 <div class="contuct-us" id="contuctUs">
                     <a href="#" class="contact-link">
-                        <div>დაგვიკავშირდით</div>
+                        <div data-translate = "contactUs">დაგვიკავშირდით</div>
                     </a>
                 </div>
             </div>
@@ -83,9 +83,7 @@
                     <div class="footerLogo">
                         <img src=".\pics\logo.png" alt="Apetiti logo">
                     </div>
-                    <div class="footerText">
-                        <p>შემოგვიერთდით</p>
-                    </div>
+                    <div class="footerText" data-translate = "joinUs">შემოგვიერთდით</div>
                     <div class="footerSocial">
                         <div id="facebook">
                             <a href="https://www.facebook.com/ApetittoGeorgia">
@@ -104,13 +102,13 @@
                     </div>
                     <div class="footerContacts">
                         <div>
-                            <p>მისამართი: თბილისი, მირიან მეფის ...</p>
+                            <p data-translate = "address">მისამართი: თბილისი, მირიან მეფის ...</p>
                         </div>
                         <div>
-                            <p>ტელ: (+995) 555 55 55 55</p>
+                            <p data-translate = "ourMobile">ტელ: (+995) 555 55 55 55</p>
                         </div>
                         <div>
-                            <p>ელ. ფოსტა:example@gmail.com</p>
+                            <p data-translate = "ourMail">ელ. ფოსტა: example@gmail.com</p>
                         </div>
                     </div>
             </footer>
