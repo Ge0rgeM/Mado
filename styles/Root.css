@@ -4,6 +4,13 @@ body  {
     display: flex;
     justify-content: center;
     font-family: var(--fonts);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+body.visible { /* To prevent Dual Language Lagging */
+    visibility: visible;
+    opacity: 1;
 }
 :root{
     --white: rgb(255, 255, 255);
