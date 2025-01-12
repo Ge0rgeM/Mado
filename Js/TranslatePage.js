@@ -8,6 +8,7 @@ function getDocumentName(){
 async function loadTranslations(lang) {
   try {
     let response = ''
+    console.log(getDocumentName())
     if(getDocumentName() === "index.html"){
       response = await fetch(`./Js/Translations/${lang}.json`);
     }else {
