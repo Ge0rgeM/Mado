@@ -1,7 +1,7 @@
 // Load a JSON file dynamically
 async function loadTranslations(lang) {
     try {
-      const response = await fetch(`./Js/Translations/${lang}.json`);
+      const response = await fetch(`../Js/Translations/${lang}.json`);
       if (!response.ok) throw new Error("Failed to load translation file.");
       return await response.json();
     } catch (error) {
@@ -25,10 +25,17 @@ async function loadTranslations(lang) {
   
   // Language switch event listeners
   document.getElementById("ge").addEventListener("click", () => {
+    localStorage.setItem("language", "GE");
     applyTranslations("GE");
   });
   
   document.getElementById("en").addEventListener("click", () => {
+    localStorage.setItem("language", "EN");
     applyTranslations("EN");
   });
   
+  // Apply the stored language on page load
+document.addEventListener("DOMContentLoaded", () => {
+  const storedLanguage = localStorage.getItem("language") || "GE"; // Default to Georgian if no language is stored
+  applyTranslations(storedLanguage);
+});

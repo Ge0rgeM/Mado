@@ -1,0 +1,37 @@
+@import url(./Root.css);
+.aboutUsContainer {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.aboutUsColumn1, .aboutUsColumn2 {
+    flex: 1; 
+    min-width: 300px; 
+}
+.aboutUsColumn1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.aboutUs-title {
+    color: var(--white);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.aboutUs-text {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.aboutUsImage img{
+    /* position: relative; */
+    width: 100%; 
+    /* margin: 0 10px 0 10px; */
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px var(--grayTransparency);
+ } 

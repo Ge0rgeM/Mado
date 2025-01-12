@@ -111,7 +111,7 @@ function autoSlide() {
         for (let slide of slides) {
             slide.style.transform = `translateX(${-1 * ((sliderWidth + ExtraMargins) * IND)}px)`;
         }
-    }, 2000); // Change slide every 5 seconds
+    }, 3000); // Change slide every 3 seconds
 }
 
 autoSlide();
