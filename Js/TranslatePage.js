@@ -23,7 +23,8 @@ async function applyTranslations(lang) {
   });
   document.body.classList.add("visible");     /* To prevent Dual Language Lagging */
 }
-  
+applyTranslations('GE'); // Default
+
   // Language switch event listeners
 document.getElementById("ge").addEventListener("click", () => {
   localStorage.setItem("language", "GE");
