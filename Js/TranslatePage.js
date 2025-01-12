@@ -1,7 +1,18 @@
+// Get the full path of the current document
+function getDocumentName(){
+  const fullPath = document.location.pathname;
+  return fullPath.substring(fullPath.lastIndexOf('/') + 1);
+}
+
 // Load a JSON file dynamically
 async function loadTranslations(lang) {
   try {
-    const response = await fetch(`./Js/Translations/${lang}.json`);
+    let response = ''
+    if(getDocumentName() === "index.html"){
+      response = await fetch(`./Js/Translations/${lang}.json`);
+    }else {
+      response = await fetch(`../Js/Translations/${lang}.json`);
+    }
     if (!response.ok) throw new Error("Failed to load translation file.");
     return await response.json();
   } catch (error) {
