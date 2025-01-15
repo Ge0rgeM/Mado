@@ -46,7 +46,6 @@ let allImages = [
 function addSlides(){
     let slides = document.getElementsByClassName('slideContainer')[0];
     for(let i = 0; i < allImages.length; i++){
-        console.log(allImages[i].imgUrl)
         let temp = new Slide(allImages[i].id, allImages[i].imgUrl, allImages[i].description)
         slides.innerHTML += temp.createSlideElement();
     }
@@ -58,11 +57,9 @@ let IND = 0
 let ExtraMargins = 20
 function moveSlide(e){
     let slides = document.getElementsByClassName('slideContainer')[0].children;
-    console.log(e.dataset.slider)
     
     let button = e.dataset.slider
     let sliderWidth = slides[0].offsetWidth + 0.5;
-    console.log(IND)
     let nOfSlides = slides.length - 2;
     if(button === "Right"){
         resetAutoSlide();
@@ -77,7 +74,6 @@ function moveSlide(e){
             slide.style.transform = `translateX(${-1* ((sliderWidth + ExtraMargins)*IND)}px)`;
         }
     }
-    console.log(IND)
 }
 
 let slideInterval;
@@ -87,7 +83,6 @@ function autoSlide() {
         let slides = document.getElementsByClassName('slideContainer')[0].children;
         let sliderWidth = slides[0].offsetWidth + 0.5;
         let nOfSlides = slides.length - 3;
-        console.log(IND);
 
         if (RightMoving) {
             IND++;
