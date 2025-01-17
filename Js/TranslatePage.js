@@ -7,8 +7,8 @@ function getDocumentName(){
 // Load a JSON file dynamically
 async function loadTranslations(lang) {
   try {
-    // const response = await fetch(`../JS/Translations/${lang}.json`);
-    const response = await fetch(`https://raw.githubusercontent.com/Ge0rgeM/Mado/main/Js/Translations/${lang}.json`);
+    const response = await fetch(`../JS/Translations/${lang}.json`);
+    // const response = await fetch(`https://raw.githubusercontent.com/Ge0rgeM/Mado/main/Js/Translations/${lang}.json`);
     if (!response.ok) throw new Error("Failed to load translation file.");
     return await response.json();
   } catch (error) {
