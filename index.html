@@ -45,7 +45,19 @@
                     </div>
                 </div>
             </header>
-        
+            <section class="carousel">
+                <div id="leftArrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128" id="arrow-down">
+                        <path data-slider="Left" onclick="moveSlide(this)" stroke="#fff" stroke-linecap="round" stroke-width="5" d="M41 53L60.354 71.9239C62.1028 73.6338 64.8972 73.6338 66.646 71.9239L86 53"></path>
+                    </svg>
+                </div>
+                <div class="slideContainer"></div>
+                <div id="rightArrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128" id="arrow-down">
+                        <path data-slider="Right" onclick="moveSlide(this)" stroke="#000" stroke-linecap="round" stroke-width="5" d="M41 53L60.354 71.9239C62.1028 73.6338 64.8972 73.6338 66.646 71.9239L86 53"></path>
+                    </svg>
+                </div>
+            </section>
             <div class="greeting">
                 <div class="greeting-title">
                     <p data-translate="greetingTitle">შენი სახლური გემო</p>
@@ -63,21 +75,9 @@
                     </a>
                 </div>
             </div>
-          
-            <section class="carousel">
-                <div id="leftArrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128" id="arrow-down">
-                        <path data-slider="Left" onclick="moveSlide(this)" stroke="#fff" stroke-linecap="round" stroke-width="5" d="M41 53L60.354 71.9239C62.1028 73.6338 64.8972 73.6338 66.646 71.9239L86 53"></path>
-                    </svg>
-                </div>
-                <div class="slideContainer"></div>
-                <div id="rightArrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128" id="arrow-down">
-                        <path data-slider="Right" onclick="moveSlide(this)" stroke="#000" stroke-linecap="round" stroke-width="5" d="M41 53L60.354 71.9239C62.1028 73.6338 64.8972 73.6338 66.646 71.9239L86 53"></path>
-                    </svg>
-                </div>
-            </section>
+
             <div class="temp"></div>
+
             <footer>
                 <div class="footerWrapper">
                     <div class="footerLogo">
@@ -116,5 +116,6 @@
     </div>
     <script src="./Js/sliderJS.js"></script>
     <script src="./Js/TranslatePage.js"></script>
+    <script src="./Js/SmoothScrolling.js"></script>
 </body>
 </html>

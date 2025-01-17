@@ -19,6 +19,17 @@
     "descriptionId3":"This is a description,This is a description,This is a description,This is a description.",
     "descriptionId4":"This is a description,This is a description,This is a description,This is a description.",
     "descriptionId5":"This is a description,This is a description,This is a description,This is a description.",
-    "descriptionId6":"This is a description,This is a description,This is a description,This is a description."
+    "descriptionId6":"This is a description,This is a description,This is a description,This is a description.",
+    "firstNameForm": "First Name",
+    "surnameForm": "Surname",
+    "mailForm": "Email",
+    "phoneForm": "Phone (Optional)",
+    "messageForm": "Message...",
+    "firstNameFormError": "Please enter your Name",
+    "surnameFormError": "Please enter your Surname",
+    "mailFormError": "Please enter a valid email address",
+    "messageFormError": "Please enter a message",
+    "loadingForm": "Loading...",
+    "submitForm": "Submit!"
 }
   

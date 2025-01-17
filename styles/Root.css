@@ -20,4 +20,5 @@ body.visible { /* To prevent Dual Language Lagging */
     --green: rgb(18, 78, 6);
     --greenTransparency: rgba(18, 78, 6, 0.5);
     --fonts: "Open Sans";
+    --formWidth: 50%;
 }

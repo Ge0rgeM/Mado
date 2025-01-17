@@ -7,6 +7,7 @@ function getDocumentName(){
 // Load a JSON file dynamically
 async function loadTranslations(lang) {
   try {
+    // const response = await fetch(`../JS/Translations/${lang}.json`);
     const response = await fetch(`https://raw.githubusercontent.com/Ge0rgeM/Mado/main/Js/Translations/${lang}.json`);
     if (!response.ok) throw new Error("Failed to load translation file.");
     return await response.json();
@@ -15,7 +16,7 @@ async function loadTranslations(lang) {
     return null;
   }
 }
-  
+
   // Apply translations to elements
 async function applyTranslations(lang) {
   const translations = await loadTranslations(lang);
@@ -25,6 +26,12 @@ async function applyTranslations(lang) {
     const key = element.getAttribute("data-translate");
     if (translations[key]) {
       element.textContent = translations[key];
+    }
+  });
+  document.querySelectorAll("[data-translate-placeholder]").forEach((element) => {
+    const key = element.getAttribute("data-translate-placeholder");
+    if (translations[key]) {
+      element.placeholder = translations[key];
     }
   });
   document.body.classList.add("visible");     /* To prevent Dual Language Lagging */

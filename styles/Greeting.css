@@ -6,16 +6,15 @@
     align-items: center;
     width: 90%;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 1.5vw;
 }
 .greeting-title{
-    margin-bottom: 20PX;
     font-size: 2em;
     color: var(--white);
 }
 
 .greeting-text{
-    margin: 40px;
+    margin: 0px 40px 40px 40px;
     font-size: 1em;
     color: var(--white);
     text-align: center;
