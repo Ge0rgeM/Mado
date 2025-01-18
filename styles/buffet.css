@@ -1,0 +1,38 @@
+@import url(./Root.css);
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 10vw;
+}
+
+.menuTitle {
+    color: var(--white);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.buffetGallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.buffetTitle{
+    color: var(--white);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2vw;
+}
+.buffetText{
+    color: var(--white);
+    font-size: 1em;
+    text-align: center;
+    margin: 0px 40px 40px 40px;
+}
