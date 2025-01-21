@@ -10,16 +10,16 @@ class Dish {
         this.photo = photo;
     }
     displayDish() {
-        return `
+        return `  
             <div class="Dish" style="background-image: url(${this.photo})">
                 <div class="imgDescription" style = "opacity: 0">    
-                    <h2>${this.name}</h2>
                     <p>${this.description}</p>
                     <p>Price: $${this.price}</p>
                     <p>Amount: ${this.quantity}</p>
                     <p>tags: ${this.tag}</p>
                     <p>Weight: ${this.weight}g</p>
                 </div>    
+                <div class="menuFooter">${this.name}</div>
             </div>
         `;
     }

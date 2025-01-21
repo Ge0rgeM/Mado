@@ -77,9 +77,9 @@
     justify-content: space-around;
 }
 .Dish {
-    width: calc(40% - 20px);
+    width: calc(33% - 100px);
     height: fit-content; 
-    margin: 10px;
+    margin: 15px;
     background-size:cover;
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center; /* Center the image within the div */  
@@ -103,11 +103,21 @@
     height: 100%;
     width: 100%;
     background-color: var(--grayTransparency);
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 .imgDescription *{
     padding: 0;
     margin: 0;
     padding: 10px;
+    white-space: nowrap;
+}
+.menuFooter{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--grayTransparency);
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
     white-space: nowrap;
 }
