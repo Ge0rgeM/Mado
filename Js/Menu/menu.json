@@ -1,0 +1,66 @@
+{
+    "მეგრული კერძები შეფისგან":[
+        {
+            "id": 0,
+            "name": "ქათმის ხარჩო ნიგვზით",
+            "price": 3.50,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["chicken", "walnut", "traditional"]
+        },
+        {
+            "id": 1,
+            "name": "საქონლის ხარჩო ნიგვზით",
+            "price": 4.00,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["beef", "walnut", "traditional"]
+        },
+        {
+            "id": 2,
+            "name": "ბაჟე შემწვარი ქათმით",
+            "price": 3.50,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["chicken", "fried", "traditional"]
+        },
+        {
+            "id": 3,
+            "name": "ბაჟე",
+            "price": 3.50,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["walnut", "traditional"]
+        }
+    ],
+    "ცხელი კერძები":[
+        {
+            "id": 0,
+            "name": "ქათამი შემწვარი",
+            "price": 2.50,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["chicken", "fried", "hot"]
+        },  
+        {
+            "id": 0,
+            "name": "ქათამი შემწვარი",
+            "price": 2.50,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["chicken", "fried", "hot"]
+        }
+    ]
+}

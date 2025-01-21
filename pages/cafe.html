@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/Footer.css">
     <link rel="stylesheet" href="../styles/Header.css">
-    <link rel="stylesheet" href="../styles/Cafe.css">
+    <link rel="stylesheet" href="../styles/Cafe.css"> 
 </head>
 <body>
     <div class="bodyWrapper">
@@ -56,13 +56,22 @@
                 </div>
             </div>
             <div class="menu">
-                <p class="menuTitle" data-translate = "menu">მენიუ</p>
-                <div class="temp"></div>
-                <div class="temp"></div>
-                <div class="temp"></div>
+                <div class="menuTitle">
+                    <p data-translate = "menu">მენიუ</p>
+                </div>
+                <div class="searchWrapper">
+                    <div class="rame">Searching</div>
+                </div>
+                <div id="menuElements">
+                    <div class="left">
+                        <div class="rame">rame</div>
+                    </div>
+                    <div class="right" id="menuDishes"></div>
+                </div>
             </div>
 
             <div class="temp"></div>
+
             <footer>
                 <div class="footerWrapper">
                     <div class="footerLogo">
@@ -107,5 +116,7 @@
         </div>
     </div>
     <script src="../Js/TranslatePage.js"></script>
+    <script src="../Js/SmoothScrolling.js"></script>
+    <script src="../Js/Menu.js"></script>  
 </body>
 </html>
