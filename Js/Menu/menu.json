@@ -39,9 +39,69 @@
             "description": "აღწერა",
             "photo": "../pics/kafePic3.jpg",
             "tag": ["walnut", "traditional"]
+        },
+        {
+            "id": 4,
+            "name": "ქათმის ხარჩო ნიგვზით",
+            "price": 3.50,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["chicken", "walnut", "traditional"]
+        },
+        {
+            "id": 5,
+            "name": "საქონლის ხარჩო ნიგვზით",
+            "price": 4.00,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["beef", "walnut", "traditional"]
+        },
+        {
+            "id": 6,
+            "name": "ბაჟე შემწვარი ქათმით",
+            "price": 3.50,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["chicken", "fried", "traditional"]
+        },
+        {
+            "id": 7,
+            "name": "ბაჟე",
+            "price": 3.50,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["walnut", "traditional"]
         }
     ],
     "ცხელი კერძები":[
+        {
+            "id": 0,
+            "name": "ქათამი შემწვარი",
+            "price": 2.50,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["chicken", "fried", "hot"]
+        },  
+        {
+            "id": 0,
+            "name": "ქათამი შემწვარი",
+            "price": 2.50,
+            "quantity": 0,
+            "weight": 100,
+            "description": "აღწერა",
+            "photo": "../pics/kafePic3.jpg",
+            "tag": ["chicken", "fried", "hot"]
+        },
         {
             "id": 0,
             "name": "ქათამი შემწვარი",

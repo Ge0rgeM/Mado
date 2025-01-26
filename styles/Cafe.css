@@ -74,10 +74,10 @@
 #menuDishes{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-evenly;
 }
 .Dish {
-    width: calc(33% - 100px);
+    width: 300px;
     height: fit-content; 
     margin: 15px;
     background-size:cover;
@@ -92,7 +92,6 @@
     margin-top: 20px;
     width: 15%;
     height: max-content;
-    background-color: green;
 }
 #menuElements .right{
     width: 85%;
@@ -119,5 +118,10 @@
     background-color: var(--grayTransparency);
     border-radius: 0 0 10px 10px;
     cursor: pointer;
+    white-space: nowrap;
+}
+.checkboxWrapper{
+    display: flex;
+    flex-direction: column;
     white-space: nowrap;
 }
